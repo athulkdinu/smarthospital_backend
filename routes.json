@@ -1,0 +1,7 @@
+{
+  "/api/doctors*": "/doctors$1",
+  "/api/patients*": "/patients$1",
+  "/api/appointments*": "/appointments$1",
+  "/api/resources*": "/resources$1"
+}
+

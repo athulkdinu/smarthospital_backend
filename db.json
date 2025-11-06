@@ -1,0 +1,229 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "loginId": "PAT001",
+      "fullName": "Athul K Dinu",
+      "age": 24,
+      "gender": "Male",
+      "email": "athul@gmail.com",
+      "phone": "1234567890",
+      "address": "123 Main St, City",
+      "password": "12345"
+    },
+    {
+      "id": "6648",
+      "loginId": "PAT002",
+      "fullName": "Karthik",
+      "age": 23,
+      "gender": "Male",
+      "email": "karthik@gmail.com",
+      "phone": "123456",
+      "address": "2w3ert",
+      "password": "karthil123"
+    },
+    {
+      "fullName": "Akhil",
+      "age": "22",
+      "gender": "Male",
+      "email": "akhil@gmail.com",
+      "phone": "12323",
+      "address": "qwertyu",
+      "password": "12345",
+      "loginId": "PAT003",
+      "id": "VAB4srr"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "loginId": "ADM001",
+      "name": "Admin",
+      "email": "admin@hospital.com",
+      "password": "admin123"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "loginId": "DOC001",
+      "name": "Dr. Smith",
+      "specialization": "Cardiology",
+      "password": "doc123",
+      "available": true
+    },
+    {
+      "id": "2",
+      "loginId": "DOC002",
+      "name": "Dr. Priya Menon",
+      "specialization": "Dermatology",
+      "password": "derma123",
+      "available": false
+    },
+    {
+      "id": "3",
+      "loginId": "DOC003",
+      "name": "Dr. Asha Kumar",
+      "specialization": "Pediatrics",
+      "password": "pedi123",
+      "available": true
+    },
+    {
+      "id": "4",
+      "loginId": "DOC004",
+      "name": "Dr. Rajesh Nair",
+      "specialization": "Orthopedics",
+      "password": "ortho123",
+      "available": true
+    },
+    {
+      "id": "5",
+      "loginId": "DOC005",
+      "name": "Dr. Leena George",
+      "specialization": "Gynecology",
+      "password": "gyn123",
+      "available": true
+    },
+    {
+      "id": "6",
+      "loginId": "DOC006",
+      "name": "Dr. Vikram Singh",
+      "specialization": "Neurology",
+      "password": "neuro123",
+      "available": true
+    },
+    {
+      "id": "7",
+      "loginId": "DOC007",
+      "name": "Dr. Maya Rao",
+      "specialization": "ENT",
+      "password": "ent123",
+      "available": false
+    },
+    {
+      "id": "8",
+      "loginId": "DOC008",
+      "name": "Dr. Arjun Patel",
+      "specialization": "General Medicine",
+      "password": "gm123",
+      "available": false
+    },
+    {
+      "name": "abin",
+      "specialization": "sda",
+      "available": true,
+      "email": "abin@gmail.com",
+      "phone": "12345",
+      "id": "SsvIwdq"
+    }
+  ],
+  "appointments": [
+    {
+      "patientId": "VAB4srr",
+      "patientName": "Akhil",
+      "patientEmail": "akhil@gmail.com",
+      "doctorId": 3,
+      "doctorName": "Dr. Asha Kumar",
+      "date": "2025-11-06",
+      "time": "12:45",
+      "issue": "fever",
+      "status": "Pending",
+      "id": 1
+    }
+  ],
+  "tokens": [
+    {
+      "patientId": "VAB4srr",
+      "doctorId": "1",
+      "doctorName": "Dr. Smith",
+      "patientName": "Akhil",
+      "status": "Completed",
+      "date": "2025-11-05",
+      "tokenNumber": 1,
+      "createdAt": "2025-11-05T17:50:41.134Z",
+      "id": 1
+    }
+  ],
+  "patienthistory": [
+    {
+      "id": "h001",
+      "patientId": "1",
+      "patientName": "Athul K Dinu",
+      "doctorId": "1",
+      "doctorName": "Dr. Smith",
+      "disease": "Fever",
+      "date": "2025-11-03",
+      "time": "07:55PM",
+      "prescription": {
+        "list": [
+          "Paracetamol",
+          "Rest"
+        ],
+        "note": "Drink fluids and rest well"
+      }
+    },
+    {
+      "id": "h002",
+      "patientId": "1",
+      "patientName": "Athul K Dinu",
+      "doctorId": "1",
+      "doctorName": "Dr. Smith",
+      "disease": "Thyroid",
+      "date": "2025-11-04",
+      "time": "10:02PM",
+      "prescription": {
+        "list": [
+          "Levothyroxine"
+        ],
+        "note": "Take before breakfast daily"
+      }
+    },
+    {
+      "id": "h003",
+      "patientId": "6648",
+      "patientName": "Karthik",
+      "doctorId": "2",
+      "doctorName": "Dr. Priya Menon",
+      "disease": "Acne",
+      "date": "2025-11-01",
+      "time": "09:00AM",
+      "prescription": {
+        "list": [
+          "Topical cream",
+          "Hydration"
+        ],
+        "note": "Avoid oily foods"
+      }
+    },
+    {
+      "patientId": "1",
+      "patientName": "Athul K Dinu",
+      "doctorId": "1",
+      "doctorName": "Dr. Smith",
+      "disease": "FEVER",
+      "date": "2025-11-04",
+      "time": "11:39 AM",
+      "prescription": {
+        "list": [],
+        "note": "adsdffsfdgdf"
+      },
+      "id": "yTIrGpf"
+    },
+    {
+      "patientId": "VAB4srr",
+      "patientName": "Akhil",
+      "doctorId": "1",
+      "doctorName": "Dr. Smith",
+      "disease": "viral fever",
+      "date": "2025-11-05",
+      "time": "11:23 PM",
+      "prescription": {
+        "list": [
+          "paracitamol"
+        ],
+        "note": "Drink proper water"
+      },
+      "id": "gqZkOWr"
+    }
+  ]
+}
