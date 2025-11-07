@@ -4,7 +4,7 @@ const JSONServer = require('json-server')  // it return a express server
 
 // create server for running json file
 
-const rBuilder = JSONServer.create()      
+const smarthospital = JSONServer.create()      
 
 // 3. create middleware
 
@@ -19,15 +19,15 @@ const router=JSONServer.router("db.json")
 const PORT=3000 || process.env.PORT
 //5.use middleware
 
-rBuilder.use(middleware) 
+smarthospital.use(middleware) 
 //7.use router
 
-rBuilder.use(router)
+smarthospital.use(router)
 
 //8.tell the server to listen for the client
 
-rBuilder.listen(PORT,()=>{
-    console.log(`resume builder starts at PORT number ${PORT}`);
+smarthospital.listen(PORT,()=>{
+    console.log(`Smart Hospital starts at PORT number ${PORT}`);
     
 })
 
