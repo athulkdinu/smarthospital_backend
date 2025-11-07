@@ -32,6 +32,17 @@
       "password": "12345",
       "loginId": "PAT003",
       "id": "VAB4srr"
+    },
+    {
+      "fullName": "athul k dinu",
+      "age": "22",
+      "gender": "Male",
+      "email": "athulkdinu@gmail.com",
+      "phone": "09495576743",
+      "address": "Kochuthundiparambil (H) chingavanam po Kottayam",
+      "password": "12345",
+      "loginId": "PAT004",
+      "id": "e6UIBXA"
     }
   ],
   "admins": [
