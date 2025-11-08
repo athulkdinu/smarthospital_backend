@@ -19,13 +19,19 @@ const router=JSONServer.router("db.json")
 
 const PORT=process.env.PORT || 3000
 
-// Enable CORS for all routes - allows requests from Vercel frontend
+// Enable CORS for all routes - MUST be before other middleware
+// This allows requests from Vercel frontend
 smarthospital.use(cors({
   origin: '*', // Allow all origins (you can restrict this to your Vercel domain in production)
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true
+  allowedHeaders: ['Content-Type', 'Authorization', 'Accept'],
+  credentials: false, // Set to false for CORS with wildcard origin
+  preflightContinue: false,
+  optionsSuccessStatus: 204
 }))
+
+// Handle OPTIONS preflight requests explicitly
+smarthospital.options('*', cors())
 
 //5.use middleware
 
