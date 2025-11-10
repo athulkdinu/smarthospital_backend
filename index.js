@@ -1,7 +1,6 @@
 // import the json server
 
 const JSONServer = require('json-server')  // it return a express server
-const cors = require('cors')  // CORS middleware for cross-origin requests
 
 // create server for running json file
 
@@ -17,22 +16,7 @@ const router=JSONServer.router("db.json")
 
 //4.defime port to run the server
 
-const PORT=process.env.PORT || 3000
-
-// Enable CORS for all routes - MUST be before other middleware
-// This allows requests from Vercel frontend
-smarthospital.use(cors({
-  origin: '*', // Allow all origins (you can restrict this to your Vercel domain in production)
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'Accept'],
-  credentials: false, // Set to false for CORS with wildcard origin
-  preflightContinue: false,
-  optionsSuccessStatus: 204
-}))
-
-// Handle OPTIONS preflight requests explicitly
-smarthospital.options('*', cors())
-
+const PORT=3000 || process.env.PORT
 //5.use middleware
 
 smarthospital.use(middleware) 

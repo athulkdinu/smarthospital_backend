@@ -43,6 +43,17 @@
       "password": "12345",
       "loginId": "PAT004",
       "id": "e6UIBXA"
+    },
+    {
+      "fullName": "athul k dinu",
+      "age": "22",
+      "gender": "Male",
+      "email": "athulkdinu@gmail.com",
+      "phone": "09495576743",
+      "address": "Kottayam",
+      "password": "12345",
+      "loginId": "PAT005",
+      "id": "DnWkK17"
     }
   ],
   "admins": [
@@ -140,6 +151,18 @@
       "issue": "fever",
       "status": "Pending",
       "id": 1
+    },
+    {
+      "patientId": "DnWkK17",
+      "patientName": "athul k dinu",
+      "patientEmail": "athulkdinu@gmail.com",
+      "doctorId": 1,
+      "doctorName": "Dr. Smith",
+      "date": "2025-12-01",
+      "time": "12:01",
+      "issue": "General consultation",
+      "status": "Completed",
+      "id": 2
     }
   ],
   "tokens": [
@@ -153,6 +176,28 @@
       "tokenNumber": 1,
       "createdAt": "2025-11-05T17:50:41.134Z",
       "id": 1
+    },
+    {
+      "patientId": "DnWkK17",
+      "doctorId": "1",
+      "doctorName": "Dr. Smith",
+      "patientName": "athul k dinu",
+      "status": "Completed",
+      "date": "2025-11-10",
+      "tokenNumber": 1,
+      "createdAt": "2025-11-10T15:21:03.064Z",
+      "id": 2
+    },
+    {
+      "patientId": "VAB4srr",
+      "doctorId": "1",
+      "doctorName": "Dr. Smith",
+      "patientName": "Akhil",
+      "status": "Pending",
+      "date": "2025-11-10",
+      "tokenNumber": 2,
+      "createdAt": "2025-11-10T15:22:36.560Z",
+      "id": 3
     }
   ],
   "patienthistory": [
@@ -235,6 +280,20 @@
         "note": "Drink proper water"
       },
       "id": "gqZkOWr"
+    },
+    {
+      "patientId": "DnWkK17",
+      "patientName": "athul k dinu",
+      "doctorId": "1",
+      "doctorName": "Dr. Smith",
+      "disease": "viral fever",
+      "date": "2025-11-10",
+      "time": "08:52 PM",
+      "prescription": {
+        "list": [],
+        "note": "drink water"
+      },
+      "id": "PbPLlht"
     }
   ]
 }
