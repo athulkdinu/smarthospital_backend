@@ -54,6 +54,39 @@
       "password": "12345",
       "loginId": "PAT005",
       "id": "DnWkK17"
+    },
+    {
+      "fullName": "Athul",
+      "age": "22",
+      "gender": "Male",
+      "email": "athul@gmail.com",
+      "phone": "1234567",
+      "address": "wqertjk",
+      "password": "12345",
+      "loginId": "PAT006",
+      "id": "x41Gy9P"
+    },
+    {
+      "fullName": "abin",
+      "age": "22",
+      "gender": "Male",
+      "email": "abin@gmail.com",
+      "phone": "12345",
+      "address": "asdsafsaf",
+      "password": "abin@123",
+      "loginId": "PAT007",
+      "id": "dLT0MPv"
+    },
+    {
+      "fullName": "aza",
+      "age": "22",
+      "gender": "Female",
+      "email": "aza@gmail.com",
+      "phone": "123456789",
+      "address": "qwertyuio",
+      "password": "12345",
+      "loginId": "PAT008",
+      "id": "OjFLBAa"
     }
   ],
   "admins": [
